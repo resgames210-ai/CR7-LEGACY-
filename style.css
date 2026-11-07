@@ -1,0 +1,142 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #090909;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    background: #151515;
+    padding: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h2 {
+    color: #d4af37;
+}
+
+header span {
+    color: white;
+}
+
+.hero {
+    padding: 100px 20px;
+    background: linear-gradient(
+        135deg, #590000, #160000, #080808
+    );
+}
+
+.hero h1 {
+    font-size: 48px;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+}
+
+.hero h1 span {
+    color: #d4af37;
+}
+
+.hero h3 {
+    color: #ddd;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+button {
+    background: #d4af37;
+    color: black;
+    border: none;
+    padding: 15px 25px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: white;
+}
+
+.message {
+    padding: 75px 25px;
+    line-height: 2;
+}
+
+.message h2 {
+    color: #d4af37;
+    margin-bottom: 30px;
+}
+
+.message p {
+    max-width: 650px;
+    margin: 20px auto;
+    color: #ccc;
+}
+
+.stats {
+    padding: 60px 20px;
+    background: #171717;
+}
+
+.stats h2 {
+    color: #d4af37;
+}
+
+.number {
+    font-size: 150px;
+    font-weight: bold;
+    color: #d4af37;
+}
+
+.final {
+    padding: 80px 20px;
+}
+
+.final h2 {
+    color: #d4af37;
+    margin-bottom: 25px;
+}
+
+.final p {
+    line-height: 2;
+    margin-bottom: 30px;
+}
+
+.final h1 {
+    color: #d4af37;
+    margin-bottom: 20px;
+}
+
+.final h3 {
+    font-size: 35px;
+    color: #c90000;
+}
+
+footer {
+    background: #151515;
+    padding: 25px;
+    color: #888;
+    line-height: 2;
+}
+
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 35px;
+    }
+
+    .number {
+        font-size: 110px;
+    }
+}
